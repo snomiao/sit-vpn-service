@@ -1,0 +1,8 @@
+{
+  "name": "sit-vpn-service",
+  "private": true,
+  "scripts": {
+    "pull": "robocopy \\\\sits\\SIT-VPN-SERVICE .\\worktrees\\deploy@sit-vpn-service /MIR",
+    "push": "robocopy .\\worktrees\\deploy@sit-vpn-service \\\\sits\\SIT-VPN-SERVICE /MIR"
+  }
+}
