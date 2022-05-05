@@ -2,7 +2,7 @@
   "name": "sit-vpn-service",
   "private": true,
   "scripts": {
-    "pull": "robocopy \\\\sits\\SIT-VPN-SERVICE .\\ /MIR",
-    "push": "robocopy .\\ \\\\sits\\SIT-VPN-SERVICE /MIR"
+    "pull": "",
+    "push": "robocopy .\\worktrees\\deploy@sit-vpn-service\\deploy \\\\sits\\SIT-VPN-SERVICE /MIR"
   }
 }
