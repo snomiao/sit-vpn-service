@@ -1,2 +1,7 @@
 /worktrees
 *.log
+
+# config files
+
+配置.ini
+frpc.ini
