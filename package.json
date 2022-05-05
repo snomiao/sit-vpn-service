@@ -2,7 +2,8 @@
   "name": "sit-vpn-service",
   "private": true,
   "scripts": {
-    "pull": "pull",
-    "push": "push"
-  }
+    "deploy-pull": "deploy-pull",
+    "deploy-push": "deploy-push"
+  },
+  "dependencies": {}
 }
