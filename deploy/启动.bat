@@ -1,5 +1,5 @@
 @echo off
-chcp 65001
+@chcp 65001
 REM Copyright © 2020 snomiao (snomiao@gmail.com)
 
 REM cd %~dp0

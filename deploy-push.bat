@@ -6,4 +6,5 @@ echo flag > .\deploy\deploy-frpc-flag.log
 echo flag > .\deploy\deploy-vpn-flag.log
 
 robocopy .\deploy \\sits\SIT-VPN-SERVICE /MIR || ^
+robocopy .\deploy \\sits\SIT-VPN-SERVICE /MIR || ^
 robocopy .\deploy \\sits\SIT-VPN-SERVICE /MIR
