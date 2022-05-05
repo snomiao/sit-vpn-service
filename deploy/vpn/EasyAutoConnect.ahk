@@ -77,6 +77,11 @@ theLoop()
     FormatTime, TimeString, , (yyyyMMdd.HHmmss)
     Tooltip SIT-VPN-SERVICE - v2020.08.14 - %TimeString% - Running
     
+    if ( FileExist(A_ScriptDir "/../deploy-vpn-flag.log")) {
+        FileDelete, % A_ScriptDir "/../deploy-vpn-flag.log"
+        reload
+    }
+    
     ; ; 关掉停止工作的错误窗口
     if WinExist("ahk_exe WerFault.exe") {
         ControlClick, 关闭程序
