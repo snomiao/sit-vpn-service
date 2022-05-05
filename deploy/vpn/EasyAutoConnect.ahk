@@ -6,7 +6,7 @@
 
 global 脚本UUID := "338ab5e0-31f6-143a-694a-690d0c9d92c1"
 global VPN路径 := "C:\Program Files (x86)\Sangfor\SSL\SangforCSClient\SangforCSClient.exe"
-global 配置文件 := A_ScriptDir "\配置.ini"
+global 配置文件 := A_ScriptDir "\configs.ini"
 
 global 服务器地址
 IniRead, 服务器地址, %配置文件%, VPN, 服务器地址, 请配置服务器地址

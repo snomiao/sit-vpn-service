@@ -9,4 +9,4 @@ REM start "启动-FRPC" ".\frpc\启动.bat"
 cd %~dp0\vpn
 start "启动-VPN"  "EasyAutoConnect.exe"
 cd %~dp0\frpc
-start "启动-FRPC" "守护
+start "启动-FRPC" "守护.exe"
