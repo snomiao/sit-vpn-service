@@ -65,7 +65,7 @@ if(!(FileExist(VPN路径))) {
 
 循环间隔 |= 0
 theLoop()
-SetTimer theloop, % 循环间隔%
+SetTimer theloop, % 循环间隔
 Return
 theLoop:
     theLoop()
